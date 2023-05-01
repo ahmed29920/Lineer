@@ -1,0 +1,1782 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(66, 66, 66);
+}
+nav .nav .nav-item .nav-link {
+    text-decoration: none;
+    color: rgb(209, 199, 199);
+    padding-bottom: 5px;
+}
+nav .nav .nav-item{
+    padding-bottom: 5px;
+}
+nav .nav .nav-item .active{
+    padding-right: 310px;
+    padding-left: 15px;
+}
+nav .nav .nav-item .last{
+    padding-left: 425px; 
+    padding-right: 10px;
+}
+nav .nav .nav-item .nav-link .icon{
+    color: #149691;
+    background-color: white;
+    font-size: small;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.header{
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 18% 100%);
+    background-color: #149691;
+    width: 100%;
+}
+
+.lineer .contanier{
+    box-shadow: 0px 0px 6px 0px;
+}
+.lineer .contanier .head{
+    padding-right: 25px;
+    padding-left: 14px;
+    padding-top: 15px;
+    font-size: x-large;
+    font-weight: 700;
+    width: 99px;
+    color: black;
+}
+.header ul li .active{
+    padding-left: 630px;
+}
+.header ul li{
+    padding-top: 15px;
+    padding-right: 9px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(209, 199, 199);
+}
+.pro .contanier{
+    position: relative;
+}
+.pro .para{
+    position: absolute;
+    top: 300px;
+}
+.pro .row{
+    margin: 0px;
+}
+.pro .para a{
+    text-decoration: none;
+    border: 1px solid #149691;
+    background-color: #149691;
+    color: white;
+    padding: 5px 25px 5px 25px;
+} 
+.pro .buttons{
+    cursor: pointer;
+}
+.pro .buttons p{
+    border: 1px solid bisque;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 20px;
+}
+.Services .texthead span{
+    color: #149691;
+}
+.Services .sections .all p{
+    font-size: 15px ;
+}
+.Services .sections .all{
+    background-color: rgb(245, 241, 241);
+    width: 345px;
+}
+.Services .sections .secondone{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Services .sections .fifthone{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Services .sections a{
+    text-decoration: none;
+}
+.Services .sections .arow{
+    width: 20px;
+    background-color: rgb(92, 89, 89);
+    padding: 0px;
+}
+.Services .sections .arow:hover{
+    transform: none;
+}
+.Services .sections img{
+    width: 70px;
+    padding: 15px;
+    background-color: #149691;
+}
+.Services .sections img:hover{
+    transition: 0.5s;
+    transform: scale(1.3) rotate(50deg);
+}
+.Services .sections p{
+    font-size: 16px;
+}
+.Services .sections .fifthone img{
+    width: 50px;
+}
+.Services .sections .fifthone .arow{
+    width: 20px;
+}
+.abouts .left .background{
+    position: relative;
+    background-color: darkgray;
+    width: 300px;
+    height: 400px;
+    margin-left: 90px;
+    margin-top: 210px;
+    margin-bottom: 40px;
+}
+.abouts .left .image{
+    position: absolute;
+    top: 1620px;
+    left: 100px;
+}
+#abouts .left .image{
+    position: absolute;
+    top: 215px;
+    left: 100px; 
+}
+.abouts .right{
+    margin-top: 210px;
+    padding-left: 83px;
+}
+.abouts .right span{
+    color: #149691;
+}
+.abouts .right{
+    font-size: larger;
+}
+.abouts .right a{
+    text-decoration: none;
+    border: 1px solid #149691;
+    background-color: #149691;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    cursor: pointer;
+}
+.numbers{
+    background-image: url(./photos/images/why-bg.jpg);
+    background-size: cover; 
+    height: 320px;  
+}
+.numbers .alls{
+    background-color: black;
+    opacity: 0.7;
+    width: 1450px;
+    height: 320px;  
+    padding-top: 140px;
+}
+.numbers .alls h2 , p{
+    color: white;
+}
+.numbers .alls h2{
+    width: 200px; 
+}
+.numbers .alls p{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.numbers .hours{
+    padding-left: 150px;
+}
+.numbers .projects{
+    padding-left: 10px;
+    width: 300px;
+}
+.numbers .industres{
+    padding-left: 115px;
+}
+.numbers .clients{
+    padding-left: 32px;
+}
+.ourclients .contanier{
+    box-shadow: none;
+}
+.ourclients .opinion{
+    padding-left: 55px;
+    width: 1300px;
+}
+.ourclients .opinion .alls{
+    display: none;
+}
+.ourclients .opinion .active{
+    display: inline-block;
+}
+.ourclients .text{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding-left: 55px;
+}
+.ourclients .text h3{
+    font-weight: 700;
+}
+.ourclients .text h3 span{
+    font-weight: 500;
+    color: #149691;
+}
+.ourclients .card{
+    margin-right: 14px;
+}
+.ourclients .card .photo{
+    width: 200px;
+}
+.ourclients .card img{
+    margin-top: 35px;
+    border: 5px solid rgb(65, 65, 65);
+    width: 50%;
+}
+.ourclients .card .name{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: larger;
+    color: black;
+}
+.ourclients .card-body .card-title{
+    line-height: 1.4;
+}
+.ourclients .butt{
+    padding-left: 55px;
+    margin-bottom: 20px;
+} 
+.ourclients .butt button {
+    background-color: #149691;
+    color: white;
+    border: #149691;
+    padding: 8px 12px;
+}
+.form .contanier{
+    box-shadow: none;
+}
+.form .text{
+    padding-left: 85px;
+}
+.form .text h3{
+    font-weight: 700;
+}
+.form .text span{
+    color: #149691;
+    font-weight: 500;
+}
+.form .inputs{
+    padding-left: 85px;
+}
+.form .inputs input{
+    width: 320px;
+    margin-top: 15px ;
+    padding: 8px 0px 8px 20px;
+    border: none;
+    box-shadow: 0 0 1px 0;
+    font-weight: 500;
+}
+.form .inputs .message{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.form .inputs button{
+    background-color: #149691;
+    border: 1px solid #149691;
+    color: white;
+    border-radius: 3px;
+    padding: 8px 50px ;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.form .map iframe{
+    height: 330px;
+    margin-top: 15px;
+    width: 780px;
+}
+footer{
+    background-color: rgb(66, 66, 66);
+    padding-top: 50px;
+    margin-top: 70px;
+}
+footer .fotsections h3{
+    color: white;
+}
+.fotsections .abou{
+    padding-top: 20px;
+    width: 305px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+}
+.fotsections .abou h3{
+    padding-bottom: 10px;
+}
+.fotsections ul a{
+    text-decoration: none;
+    color: white;
+    line-height: 2.5;
+}
+.fotsections .Links{
+    padding-bottom: 65px;
+    padding-left: 100px;
+    margin-left: 20px;
+}
+.fotsections .get .first{
+    padding-top: 10px;
+}
+.fotsections .get p{
+    font-size: 15px;
+    color: white;
+    line-height: 1.9;
+}
+.fotsections .get p .icon{
+    padding-right: 10px;
+    font-size: 20px;
+}
+footer .fotsections .get{
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+footer .fotsections .subscribe{
+    padding-bottom: 140px;
+    padding-left: 20px;
+}
+footer .fotsections .subscribe p{
+    color: rgba(245, 245, 245, 0.74);
+}
+footer .fotsections .subscribe .email{
+    border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+    width: 240px;
+    padding-bottom: 10px;
+}
+footer .fotsections .subscribe .email input{
+    background: none;
+    border: none;
+    padding-left: 10px;
+}
+footer .fotsections .subscribe button{
+    color: white;
+    background-color: #149691;
+    border: 1px solid #149691;
+    margin-top: 15px;
+    padding: 7px 85px ;
+}
+footer .fotsections .copyright{
+    background-color: white;
+    color: rgba(245, 245, 245, 0.74);
+    width: 100%;
+}
+footer .fotsections .copyright p{
+    font-size: large;
+}
+.back #back{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 20px;
+    border: 1px solid #149691;
+    background-color: #149691;
+    color: white;
+    padding: 10px 15px;
+    display: none;
+}
+/* responsive for media betwwen 1023 and 768 */
+@media (max-width:1023px) and (min-width:768px){
+    body{
+        width: 767px;
+    }
+    nav{
+        width: 768px;
+    }
+    nav .nav .nav-item .nav-link {
+        text-decoration: none;
+        color: rgb(209, 199, 199);
+        padding-bottom: 5px;
+    }
+    nav .nav .nav-item{
+        padding-bottom: 5px;
+    }
+    nav .nav .nav-item .active{
+        padding-right: 105px;
+        padding-left: 15px;
+    }
+    nav .nav .nav-item .last{
+        padding-left: 105px; 
+        padding-right: 15px;
+    }
+    .header{
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 18% 100%);
+        background-color: #149691;
+        width: 700px;
+    }
+    .lineer .about{
+        width: 65px;
+    }
+    .lineer .contanier{
+        width: 768px;
+    }
+    .lineer .contanier .head{
+        padding-right: 25px;
+        padding-left: 14px;
+        padding-top: 15px;
+        font-size: x-large;
+        font-weight: 700;
+        width: 99px;
+        color: black;
+    }
+    .header ul li .active{
+        padding-left: 189px;
+    }
+    .header ul li a{
+        padding: 8px;
+    }
+    .pro{
+        width: 768px;
+    }
+    .pro img{
+        height: 520px;
+    }
+    .Services{
+        width: 768px;
+    }
+    .Services .textpara{
+        width: 670px;
+        padding-left: 115px;
+    }
+    .Services .sections .all{
+        width: 345px;
+    }
+    .Services .sections .secondone{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .Services .sections .thirdone{
+        margin-left: 100px;
+        margin-right: 100px;  
+    }
+    .Services .sections .fourthone{
+        margin-bottom: 15px;
+    }
+    .Services .sections .fifthone{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 15px;
+    }
+    .abouts{
+        width: 768px;
+    }
+    .abouts .left .background{
+        position: relative;
+        background-color: darkgray;
+        width: 272px;
+        height: 400px;
+        margin-left: 35px;
+        margin-top: 185px;
+        margin-bottom: 40px;
+    }
+    .abouts .left .image{
+        position: absolute;
+        top: 2575px;
+        left: 30px;
+        width: 600px;
+    }
+    #abouts .left .image{
+        position: absolute;
+        top: 285px;
+        left: 25px;
+    }
+    .abouts .right p{
+        font-size: 18px;
+    }
+    .numbers{
+        background-image: url(./photos/images/why-bg.jpg);
+        background-size: cover; 
+        height: 320px;  
+        width: 768px;
+    }
+    .numbers .alls{
+        background-color: black;
+        opacity: 0.7;
+        width: 200px;
+        height: 320px;  
+        padding-top: 140px;
+
+    }
+    .numbers .alls h2{
+        color: white;
+        font-size: 12px;
+    }
+    .numbers .alls h2{
+        font-size: 25px;
+        width: 100px;
+    }
+    .numbers .alls p{
+        width: 100px;
+        font-weight: 600;
+    }
+    .numbers .hours{
+        padding-left: 30px;
+        width: 300px;
+    }
+    .numbers .projects{
+        padding-left: 5px;
+        width: 300px;
+    }
+    .numbers .industres{
+        padding-left: 0px;
+    }
+    .numbers .clients{
+        padding-right: 30px;
+    }
+    .ourclients{
+        width: 768px;
+    }
+    .ourclients .contanier{
+        box-shadow: none;
+        padding-left: 10px;
+    }
+    .ourclients .card{
+        margin-right: 0px;
+    }
+    .ourclients .opinion{
+        padding-left: 0px;
+    }
+    .ourclients .opinion .alls{
+        display: none;
+    }
+    .ourclients .opinion .active{
+        display: inline-block;
+    }
+    .ourclients .text{
+        margin-top: 20px;
+        margin-bottom: 35px;
+        padding-left: 55px;
+    }
+    .ourclients .text h3{
+        font-weight: 700;
+    }
+    .ourclients .text h3 span{
+        font-weight: 500;
+        color: #149691;
+    }
+    .ourclients .card .photo{
+        width: 235px;
+        text-align: center;
+        padding-left: 60px;
+    }
+    .ourclients .card img{
+        margin-top: 35px;
+        border: 5px solid rgb(65, 65, 65);
+        width: 50%;
+    }
+    .ourclients .card .name{
+        margin-left: 50px;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: larger;
+        color: black;
+    }
+    .ourclients .card-body .card-title{
+        line-height: 1.4;
+        text-align: center;
+        width: 375px;
+        padding-right: 7px;
+    }
+    .ourclients .butt{
+        padding-left: 55px;
+        margin-bottom: 20px;
+    } 
+    .ourclients .butt button {
+        background-color: #149691;
+        color: white;
+        border: #149691;
+        padding: 8px 12px;
+    }
+    .ourclients .card .card-icon{
+        text-align: center;
+        width: 375px;
+    }
+    .form {
+        width: 768px;
+    }
+    .form .text{
+        padding-left: 45px;
+    }
+    .form .text h3{
+        font-weight: 700;
+    }
+    .form .text span{
+        color: #149691;
+        font-weight: 500;
+    }
+    .form .inputs{
+        padding-left: 45px;
+    }
+    .form .inputs input{
+        width: 210px;
+        margin-top: 15px ;
+        padding: 8px 0px 8px 10px;
+        border: none;
+        box-shadow: 0 0 1px 0;
+    }
+    .form .inputs .message{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .form .inputs button{
+        background-color: #149691;
+        border: 1px solid #149691;
+        color: white;
+        border-radius: 3px;
+        padding: 6px 40px ;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .form .map iframe{
+        height: 330px;
+        margin-top: 15px;
+        width: 470px;
+        margin: 0px;
+        padding: 0px;
+    }
+    footer{
+    background-color: rgb(66, 66, 66);
+    padding-top: 50px;
+    margin-top: 70px;
+    width: 768px;
+    }
+    footer .fotsections h3{
+        color: white;
+    }
+    .fotsections .abou{
+        width: 280px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .fotsections .abou h3{
+        padding-bottom: 10px;
+    }
+    .fotsections ul a{
+        text-decoration: none;
+        color: white;
+        line-height: 2.5;
+    }
+    .fotsections .Links{
+        padding-bottom: 65px;
+        padding-left: 45px;
+        margin-left: 20px;
+    }
+    .fotsections .get .first{
+        padding-top: 10px;
+    }
+    .fotsections .get p{
+        font-size: 15px;
+        color: white;
+        line-height: 1.9;
+    }
+    .fotsections .get p .icon{
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    footer .fotsections .get{
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+    footer .fotsections .subscribe{
+        padding-bottom: 140px;
+        padding-left: 0px;
+    }
+    footer .fotsections .subscribe p{
+        color: rgba(245, 245, 245, 0.74);
+    }
+    footer .fotsections .subscribe .email{
+        border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+        width: 240px;
+        padding-bottom: 10px;
+    }
+    footer .fotsections .subscribe .email input{
+        background: none;
+        border: none;
+        padding-left: 10px;
+    }
+    footer .fotsections .subscribe button{
+        color: white;
+        background-color: #149691;
+        border: 1px solid #149691;
+        margin-top: 15px;
+        padding: 7px 85px ;
+    }
+    footer .fotsections .copyright{
+        background-color: white;
+        color: rgba(245, 245, 245, 0.74);
+        width: 100%;
+    }
+    footer .fotsections .copyright p{
+        font-size: large;
+    }
+    .back #back{
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        font-size: 20px;
+        border: 1px solid #149691;
+        background-color: #149691;
+        color: white;
+        padding: 10px 15px;
+        display: none;
+    }
+}
+@media (max-width:767px) and (min-width:425px){
+    nav{
+        width: 768px;
+    }
+    nav .nav .nav-item .nav-link {
+        text-decoration: none;
+        color: rgb(209, 199, 199);
+        padding-bottom: 5px;
+    }
+    nav .nav .nav-item{
+        padding-bottom: 5px;
+    }
+    nav .nav .nav-item .active{
+        padding-right: 105px;
+        padding-left: 15px;
+    }
+    nav .nav .nav-item .last{
+        padding-left: 105px; 
+        padding-right: 15px;
+    }
+    .header{
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 18% 100%);
+        background-color: #149691;
+        width: 700px;
+    }
+    .lineer .about{
+        width: 65px;
+    }
+    .lineer .contanier{
+        width: 768px;
+    }
+    .lineer .contanier .head{
+        padding-right: 25px;
+        padding-left: 14px;
+        padding-top: 15px;
+        font-size: x-large;
+        font-weight: 700;
+        width: 99px;
+        color: black;
+    }
+    .header ul li .active{
+        padding-left: 189px;
+    }
+    .header ul li a{
+        padding: 8px;
+    }
+    .pro{
+        width: 768px;
+    }
+    .pro .para{
+        left: 180px;
+    }
+    .pro img{
+        height: 520px;
+    }
+    .Services{
+        width: 768px;
+    }
+    .Services .textpara{
+        width: 670px;
+        padding-left: 115px;
+    }
+    .Services .sections .all{
+        width: 345px;
+    }
+    .Services .sections .secondone{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .Services .sections .thirdone{
+        margin-left: 100px;
+        margin-right: 100px;  
+    }
+    .Services .sections .fourthone{
+        margin-bottom: 15px;
+    }
+    .Services .sections .fifthone{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 15px;
+    }
+    .abouts{
+        width: 768px;
+    }
+    .abouts .left .background{
+        position: relative;
+        background-color: darkgray;
+        width: 272px;
+        height: 400px;
+        margin-left: 53px;
+        margin-top: 195px;
+        margin-bottom: 40px;
+    }
+    .abouts .left .image{
+        position: absolute;
+        top: 2575px;
+        left: 15px;
+        width: 600px;
+    }
+    #abouts .left .image{
+        position: absolute;
+        top: 295px;
+        left: 25px;
+        width: 585px;
+    }
+    .abouts .right p{
+        font-size: 18px;
+    }
+    .numbers{
+        background-image: url(./photos/images/why-bg.jpg);
+        background-size: cover; 
+        height: 320px;  
+        width: 768px;
+    }
+    .numbers .alls{
+        background-color: black;
+        opacity: 0.7;
+        width: 200px;
+        height: 320px;  
+        padding-top: 140px;
+
+    }
+    .numbers .alls h2{
+        color: white;
+        font-size: 12px;
+    }
+    .numbers .alls h2{
+        font-size: 25px;
+        width: 100px;
+    }
+    .numbers .alls p{
+        width: 100px;
+        font-weight: 600;
+    }
+    .numbers .hours{
+        padding-left: 30px;
+        width: 300px;
+    }
+    .numbers .projects{
+        padding-left: 5px;
+        width: 300px;
+    }
+    .numbers .industres{
+        padding-left: 0px;
+    }
+    .numbers .clients{
+        padding-right: 30px;
+    }
+    .ourclients{
+        width: 768px;
+    }
+    .ourclients .contanier{
+        box-shadow: none;
+        padding-left: 10px;
+    }
+    .ourclients .card{
+        margin-right: 0px;
+    }
+    .ourclients .opinion{
+        padding-left: 0px;
+    }
+    .ourclients .opinion .alls{
+        display: none;
+    }
+    .ourclients .opinion .active{
+        display: inline-block;
+    }
+    .ourclients .text{
+        margin-top: 20px;
+        margin-bottom: 35px;
+        padding-left: 55px;
+    }
+    .ourclients .text h3{
+        font-weight: 700;
+    }
+    .ourclients .text h3 span{
+        font-weight: 500;
+        color: #149691;
+    }
+    .ourclients .card .photo{
+        width: 235px;
+        text-align: center;
+        padding-left: 60px;
+    }
+    .ourclients .card img{
+        margin-top: 35px;
+        border: 5px solid rgb(65, 65, 65);
+        width: 50%;
+    }
+    .ourclients .card .name{
+        margin-left: 50px;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: larger;
+        color: black;
+    }
+    .ourclients .card-body .card-title{
+        line-height: 1.4;
+        text-align: center;
+        width: 375px;
+        padding-right: 7px;
+    }
+    .ourclients .butt{
+        padding-left: 55px;
+        margin-bottom: 20px;
+    } 
+    .ourclients .butt button {
+        background-color: #149691;
+        color: white;
+        border: #149691;
+        padding: 8px 12px;
+    }
+    .ourclients .card .card-icon{
+        text-align: center;
+        width: 375px;
+    }
+    .form {
+        width: 768px;
+    }
+    .form .text{
+        padding-left: 45px;
+    }
+    .form .text h3{
+        font-weight: 700;
+    }
+    .form .text span{
+        color: #149691;
+        font-weight: 500;
+    }
+    .form .inputs{
+        padding-left: 45px;
+    }
+    .form .inputs input{
+        width: 210px;
+        margin-top: 15px ;
+        padding: 8px 0px 8px 10px;
+        border: none;
+        box-shadow: 0 0 1px 0;
+    }
+    .form .inputs .message{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .form .inputs button{
+        background-color: #149691;
+        border: 1px solid #149691;
+        color: white;
+        border-radius: 3px;
+        padding: 6px 40px ;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .form .map iframe{
+        height: 330px;
+        margin-top: 15px;
+        width: 470px;
+        margin: 0px;
+        padding: 0px;
+    }
+    footer{
+    background-color: rgb(66, 66, 66);
+    padding-top: 50px;
+    margin-top: 70px;
+    width: 768px;
+    }
+    footer .fotsections h3{
+        color: white;
+    }
+    .fotsections .abou{
+        width: 280px;
+        padding-bottom: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .fotsections .abou h3{
+        padding-bottom: 10px;
+    }
+    .fotsections ul a{
+        text-decoration: none;
+        color: white;
+        line-height: 2.5;
+    }
+    .fotsections .Links{
+        padding-bottom: 65px;
+        padding-left: 0px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .fotsections .get .first{
+        padding-top: 10px;
+    }
+    .fotsections .get p{
+        font-size: 15px;
+        color: white;
+        line-height: 1.9;
+    }
+    .fotsections .get p .icon{
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    footer .fotsections .get{
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+    footer .fotsections .subscribe{
+        padding-bottom: 140px;
+        padding-left: 0px;
+    }
+    footer .fotsections .subscribe p{
+        color: rgba(245, 245, 245, 0.74);
+    }
+    footer .fotsections .subscribe .email{
+        border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+        width: 240px;
+        padding-bottom: 10px;
+    }
+    footer .fotsections .subscribe .email input{
+        background: none;
+        border: none;
+        padding-left: 10px;
+    }
+    footer .fotsections .subscribe button{
+        color: white;
+        background-color: #149691;
+        border: 1px solid #149691;
+        margin-top: 15px;
+        padding: 7px 85px ;
+    }
+    footer .fotsections .copyright{
+        background-color: white;
+        color: rgba(245, 245, 245, 0.74);
+        width: 100%;
+    }
+    footer .fotsections .copyright p{
+        font-size: large;
+    }
+    .back #back{
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        font-size: 20px;
+        border: 1px solid #149691;
+        background-color: #149691;
+        color: white;
+        padding: 10px 15px;
+        display: none;
+    }
+}
+@media (max-width:424px) and (min-width:375px){
+    nav{
+        width: 768px;
+    }
+    nav .nav .nav-item .nav-link {
+        text-decoration: none;
+        color: rgb(209, 199, 199);
+        padding-bottom: 5px;
+    }
+    nav .nav .nav-item{
+        padding-bottom: 5px;
+    }
+    nav .nav .nav-item .active{
+        padding-right: 105px;
+        padding-left: 15px;
+    }
+    nav .nav .nav-item .last{
+        padding-left: 105px; 
+        padding-right: 15px;
+    }
+    .header{
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 18% 100%);
+        background-color: #149691;
+        width: 700px;
+    }
+    .lineer .about{
+        width: 65px;
+    }
+    .lineer .contanier{
+        width: 768px;
+    }
+    .lineer .contanier .head{
+        padding-right: 25px;
+        padding-left: 14px;
+        padding-top: 15px;
+        font-size: x-large;
+        font-weight: 700;
+        width: 99px;
+        color: black;
+    }
+    .header ul li .active{
+        padding-left: 189px;
+    }
+    .header ul li a{
+        padding: 8px;
+    }
+    .pro{
+        width: 768px;
+    }
+    .pro .para{
+        left: 180px;
+    }
+    .pro img{
+        height: 520px;
+    }
+    .Services{
+        width: 768px;
+    }
+    .Services .textpara{
+        width: 670px;
+        padding-left: 115px;
+    }
+    .Services .sections .all{
+        width: 345px;
+    }
+    .Services .sections .secondone{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .Services .sections .thirdone{
+        margin-left: 100px;
+        margin-right: 100px;  
+    }
+    .Services .sections .fourthone{
+        margin-bottom: 15px;
+    }
+    .Services .sections .fifthone{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 15px;
+    }
+    .abouts{
+        width: 768px;
+    }
+    .abouts .left .background{
+        position: relative;
+        background-color: darkgray;
+        width: 272px;
+        height: 400px;
+        margin-left: 53px;
+        margin-top: 195px;
+        margin-bottom: 40px;
+    }
+    .abouts .left .image{
+        position: absolute;
+        top: 2575px;
+        left: 15px;
+        width: 600px;
+    }
+    #abouts .left .image{
+        position: absolute;
+        top: 295px;
+        left: 25px;
+        width: 585px;
+    }
+    .abouts .right p{
+        font-size: 18px;
+    }
+    .numbers{
+        background-image: url(./photos/images/why-bg.jpg);
+        background-size: cover; 
+        height: 320px;  
+        width: 768px;
+    }
+    .numbers .alls{
+        background-color: black;
+        opacity: 0.7;
+        width: 200px;
+        height: 320px;  
+        padding-top: 140px;
+
+    }
+    .numbers .alls h2{
+        color: white;
+        font-size: 12px;
+    }
+    .numbers .alls h2{
+        font-size: 25px;
+        width: 100px;
+    }
+    .numbers .alls p{
+        width: 100px;
+        font-weight: 600;
+    }
+    .numbers .hours{
+        padding-left: 30px;
+        width: 300px;
+    }
+    .numbers .projects{
+        padding-left: 5px;
+        width: 300px;
+    }
+    .numbers .industres{
+        padding-left: 0px;
+    }
+    .numbers .clients{
+        padding-right: 30px;
+    }
+    .ourclients{
+        width: 768px;
+    }
+    .ourclients .contanier{
+        box-shadow: none;
+        padding-left: 10px;
+    }
+    .ourclients .card{
+        margin-right: 0px;
+    }
+    .ourclients .opinion{
+        padding-left: 0px;
+    }
+    .ourclients .opinion .alls{
+        display: none;
+    }
+    .ourclients .opinion .active{
+        display: inline-block;
+    }
+    .ourclients .text{
+        margin-top: 20px;
+        margin-bottom: 35px;
+        padding-left: 55px;
+    }
+    .ourclients .text h3{
+        font-weight: 700;
+    }
+    .ourclients .text h3 span{
+        font-weight: 500;
+        color: #149691;
+    }
+    .ourclients .card .photo{
+        width: 235px;
+        text-align: center;
+        padding-left: 60px;
+    }
+    .ourclients .card img{
+        margin-top: 35px;
+        border: 5px solid rgb(65, 65, 65);
+        width: 50%;
+    }
+    .ourclients .card .name{
+        margin-left: 50px;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: larger;
+        color: black;
+    }
+    .ourclients .card-body .card-title{
+        line-height: 1.4;
+        text-align: center;
+        width: 375px;
+        padding-right: 7px;
+    }
+    .ourclients .butt{
+        padding-left: 55px;
+        margin-bottom: 20px;
+    } 
+    .ourclients .butt button {
+        background-color: #149691;
+        color: white;
+        border: #149691;
+        padding: 8px 12px;
+    }
+    .ourclients .card .card-icon{
+        text-align: center;
+        width: 375px;
+    }
+    .form {
+        width: 768px;
+    }
+    .form .text{
+        padding-left: 45px;
+    }
+    .form .text h3{
+        font-weight: 700;
+    }
+    .form .text span{
+        color: #149691;
+        font-weight: 500;
+    }
+    .form .inputs{
+        padding-left: 45px;
+    }
+    .form .inputs input{
+        width: 210px;
+        margin-top: 15px ;
+        padding: 8px 0px 8px 10px;
+        border: none;
+        box-shadow: 0 0 1px 0;
+    }
+    .form .inputs .message{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .form .inputs button{
+        background-color: #149691;
+        border: 1px solid #149691;
+        color: white;
+        border-radius: 3px;
+        padding: 6px 40px ;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .form .map iframe{
+        height: 330px;
+        margin-top: 15px;
+        width: 470px;
+        margin: 0px;
+        padding: 0px;
+    }
+    footer{
+    background-color: rgb(66, 66, 66);
+    padding-top: 50px;
+    margin-top: 70px;
+    width: 768px;
+    }
+    footer .fotsections h3{
+        color: white;
+    }
+    .fotsections .abou{
+        width: 280px;
+        padding-bottom: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .fotsections .abou h3{
+        padding-bottom: 10px;
+    }
+    .fotsections ul a{
+        text-decoration: none;
+        color: white;
+        line-height: 2.5;
+    }
+    .fotsections .Links{
+        padding-bottom: 65px;
+        padding-left: 0px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .fotsections .get .first{
+        padding-top: 10px;
+    }
+    .fotsections .get p{
+        font-size: 15px;
+        color: white;
+        line-height: 1.9;
+    }
+    .fotsections .get p .icon{
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    footer .fotsections .get{
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+    footer .fotsections .subscribe{
+        padding-bottom: 140px;
+        padding-left: 0px;
+    }
+    footer .fotsections .subscribe p{
+        color: rgba(245, 245, 245, 0.74);
+    }
+    footer .fotsections .subscribe .email{
+        border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+        width: 240px;
+        padding-bottom: 10px;
+    }
+    footer .fotsections .subscribe .email input{
+        background: none;
+        border: none;
+        padding-left: 10px;
+    }
+    footer .fotsections .subscribe button{
+        color: white;
+        background-color: #149691;
+        border: 1px solid #149691;
+        margin-top: 15px;
+        padding: 7px 85px ;
+    }
+    footer .fotsections .copyright{
+        background-color: white;
+        color: rgba(245, 245, 245, 0.74);
+        width: 100%;
+    }
+    footer .fotsections .copyright p{
+        font-size: large;
+    }
+    .back #back{
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        font-size: 20px;
+        border: 1px solid #149691;
+        background-color: #149691;
+        color: white;
+        padding: 10px 15px;
+        display: none;
+    }
+}
+@media (max-width:374px) and (min-width:320px){
+    nav{
+        width: 768px;
+    }
+    nav .nav .nav-item .nav-link {
+        text-decoration: none;
+        color: rgb(209, 199, 199);
+        padding-bottom: 5px;
+    }
+    nav .nav .nav-item{
+        padding-bottom: 5px;
+    }
+    nav .nav .nav-item .active{
+        padding-right: 105px;
+        padding-left: 15px;
+    }
+    nav .nav .nav-item .last{
+        padding-left: 105px; 
+        padding-right: 15px;
+    }
+    .header{
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 18% 100%);
+        background-color: #149691;
+        width: 700px;
+    }
+    .lineer .about{
+        width: 65px;
+    }
+    .lineer .contanier{
+        width: 768px;
+    }
+    .lineer .contanier .head{
+        padding-right: 25px;
+        padding-left: 14px;
+        padding-top: 15px;
+        font-size: x-large;
+        font-weight: 700;
+        width: 99px;
+        color: black;
+    }
+    .header ul li .active{
+        padding-left: 189px;
+    }
+    .header ul li a{
+        padding: 8px;
+    }
+    .pro{
+        width: 768px;
+    }
+    .pro .para{
+        left: 225px;
+        top: 220px;
+    }
+    .pro img{
+        height: 520px;
+    }
+    .Services{
+        width: 768px;
+    }
+    .Services .textpara{
+        width: 670px;
+        padding-left: 115px;
+    }
+    .Services .sections .all{
+        width: 345px;
+    }
+    .Services .sections .secondone{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .Services .sections .thirdone{
+        margin-left: 100px;
+        margin-right: 100px;  
+    }
+    .Services .sections .fourthone{
+        margin-bottom: 15px;
+    }
+    .Services .sections .fifthone{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 15px;
+    }
+    .abouts{
+        width: 768px;
+    }
+    .abouts .left .background{
+        position: relative;
+        background-color: darkgray;
+        width: 272px;
+        height: 400px;
+        margin-left: 53px;
+        margin-top: 195px;
+        margin-bottom: 40px;
+    }
+    .abouts .left .image{
+        position: absolute;
+        top: 2575px;
+        left: 15px;
+        width: 600px;
+    }
+    #abouts .left .image{
+        position: absolute;
+        top: 295px;
+        left: 25px;
+        width: 585px;
+    }
+    .abouts .right p{
+        font-size: 18px;
+    }
+    .numbers{
+        background-image: url(./photos/images/why-bg.jpg);
+        background-size: cover; 
+        height: 320px;  
+        width: 768px;
+    }
+    .numbers .alls{
+        background-color: black;
+        opacity: 0.7;
+        width: 200px;
+        height: 320px;  
+        padding-top: 140px;
+
+    }
+    .numbers .alls h2{
+        color: white;
+        font-size: 12px;
+    }
+    .numbers .alls h2{
+        font-size: 25px;
+        width: 100px;
+    }
+    .numbers .alls p{
+        width: 100px;
+        font-weight: 600;
+    }
+    .numbers .hours{
+        padding-left: 30px;
+        width: 300px;
+    }
+    .numbers .projects{
+        padding-left: 5px;
+        width: 300px;
+    }
+    .numbers .industres{
+        padding-left: 0px;
+    }
+    .numbers .clients{
+        padding-right: 30px;
+    }
+    .ourclients{
+        width: 768px;
+    }
+    .ourclients .contanier{
+        box-shadow: none;
+        padding-left: 10px;
+    }
+    .ourclients .card{
+        margin-right: 0px;
+    }
+    .ourclients .opinion{
+        padding-left: 0px;
+    }
+    .ourclients .opinion .alls{
+        display: none;
+    }
+    .ourclients .opinion .active{
+        display: inline-block;
+    }
+    .ourclients .text{
+        margin-top: 20px;
+        margin-bottom: 35px;
+        padding-left: 55px;
+    }
+    .ourclients .text h3{
+        font-weight: 700;
+    }
+    .ourclients .text h3 span{
+        font-weight: 500;
+        color: #149691;
+    }
+    .ourclients .card .photo{
+        width: 235px;
+        text-align: center;
+        padding-left: 60px;
+    }
+    .ourclients .card img{
+        margin-top: 35px;
+        border: 5px solid rgb(65, 65, 65);
+        width: 50%;
+    }
+    .ourclients .card .name{
+        margin-left: 50px;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: larger;
+        color: black;
+    }
+    .ourclients .card-body .card-title{
+        line-height: 1.4;
+        text-align: center;
+        width: 375px;
+        padding-right: 7px;
+    }
+    .ourclients .butt{
+        padding-left: 55px;
+        margin-bottom: 20px;
+    } 
+    .ourclients .butt button {
+        background-color: #149691;
+        color: white;
+        border: #149691;
+        padding: 8px 12px;
+    }
+    .ourclients .card .card-icon{
+        text-align: center;
+        width: 375px;
+    }
+    .form {
+        width: 768px;
+    }
+    .form .text{
+        padding-left: 45px;
+    }
+    .form .text h3{
+        font-weight: 700;
+    }
+    .form .text span{
+        color: #149691;
+        font-weight: 500;
+    }
+    .form .inputs{
+        padding-left: 45px;
+    }
+    .form .inputs input{
+        width: 210px;
+        margin-top: 15px ;
+        padding: 8px 0px 8px 10px;
+        border: none;
+        box-shadow: 0 0 1px 0;
+    }
+    .form .inputs .message{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .form .inputs button{
+        background-color: #149691;
+        border: 1px solid #149691;
+        color: white;
+        border-radius: 3px;
+        padding: 6px 40px ;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .form .map iframe{
+        height: 330px;
+        margin-top: 15px;
+        width: 470px;
+        margin: 0px;
+        padding: 0px;
+    }
+    footer{
+    background-color: rgb(66, 66, 66);
+    padding-top: 50px;
+    margin-top: 70px;
+    width: 768px;
+    }
+    footer .fotsections h3{
+        color: white;
+    }
+    .fotsections .abou{
+        width: 280px;
+        padding-bottom: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .fotsections .abou h3{
+        padding-bottom: 10px;
+    }
+    .fotsections ul a{
+        text-decoration: none;
+        color: white;
+        line-height: 2.5;
+    }
+    .fotsections .Links{
+        padding-bottom: 65px;
+        padding-left: 0px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .fotsections .get .first{
+        padding-top: 10px;
+    }
+    .fotsections .get p{
+        font-size: 15px;
+        color: white;
+        line-height: 1.9;
+    }
+    .fotsections .get p .icon{
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    footer .fotsections .get{
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+    footer .fotsections .subscribe{
+        padding-bottom: 140px;
+        padding-left: 0px;
+    }
+    footer .fotsections .subscribe p{
+        color: rgba(245, 245, 245, 0.74);
+    }
+    footer .fotsections .subscribe .email{
+        border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+        width: 240px;
+        padding-bottom: 10px;
+    }
+    footer .fotsections .subscribe .email input{
+        background: none;
+        border: none;
+        padding-left: 10px;
+    }
+    footer .fotsections .subscribe button{
+        color: white;
+        background-color: #149691;
+        border: 1px solid #149691;
+        margin-top: 15px;
+        padding: 7px 85px ;
+    }
+    footer .fotsections .copyright{
+        background-color: white;
+        color: rgba(245, 245, 245, 0.74);
+        width: 100%;
+    }
+    footer .fotsections .copyright p{
+        font-size: large;
+    }
+    .back #back{
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        font-size: 20px;
+        border: 1px solid #149691;
+        background-color: #149691;
+        color: white;
+        padding: 10px 15px;
+        display: none;
+    }
+}
